@@ -1,0 +1,78 @@
+/*css style sheet
+--Database group 8 project
+--5/12/16
+--Andrew Behrens, Matthew Hoover, Brednan McDonalds, Watson Powers, Dillon Puglisi
+
+--Contains all the styling for the main (index.php) web page
+*/
+body {
+	background-color: #00004C;	/*dark blue*/
+}
+
+/*login box*/
+#loginDiv{	
+  float: right;
+  margin-right: 50pt;
+  margin-top: 10pt;
+  /*width: 140pt;
+  height: 90pt;*/
+  padding: 10pt 10pt 10pt 10pt;
+  background-color: #D3D3D3;	/*light gray*/
+  border-radius: 10pt;
+  border: 2px ridge black;
+}
+
+/*main body, contains forms and output divs*/
+#container{		
+  width: 95%;
+  min-width: 600pt;
+  margin: auto;
+  margin-top: 20pt;
+  background: #D3D3D3;
+  padding: 10pt 10pt 10pt 10pt;
+  /*clear: both;*/
+  border-radius: 10px;
+  border: 1px solid black;
+  /*overflow:auto; 
+  display: table;*/
+  width: 95%;
+}
+
+/*where the datatable or output tables go*/
+#display{		
+  background-color: white;
+  width: 95%;
+  height: 900pt;
+  margin: 5% auto;
+  border: 1pt solid black;
+  padding: 5pt 5pt 5pt 5pt;
+  /*overflow:auto; 
+  display: table;*/
+  font-size: 70%;
+  /*width: 95%;*/
+}
+
+/*main div with the forms for faculty access*/
+#manipulator{	
+  width: 60%;
+  margin: 20pt auto;
+  border: 1pt solid black;
+  padding: 10pt 10pt 10pt 10pt;
+}
+button {
+	font-size: 115%;
+	border-radius: 5pt;
+	padding: 2pt 2pt 2pt 2pt;
+}
+
+/*main div where the table gets sent to*/
+#outputTable{	
+	font-size: 80%;
+}
+
+/*styling for all tables on the page*/
+table, th, td {	
+    border: 1px solid black;
+    border-collapse: collapse;
+	padding: 3pt;
+}
